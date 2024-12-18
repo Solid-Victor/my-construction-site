@@ -92,7 +92,7 @@ export const FloatingNav = ({
           <div className="flex-shrink-0">
             <Link href="/">
               <Image
-                src="/jsm-logo.png"
+                src="/GREAT-WESTERN-FARM-PORTRIAT-LOGO.png"
                 alt="Company Logo"
                 width={120}
                 height={40}

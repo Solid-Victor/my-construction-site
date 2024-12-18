@@ -1,5 +1,6 @@
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "Home", link: "/" },
+  { name: "About", link: "/about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
@@ -130,7 +131,7 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. Thier professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. If you're seeking to get the best construction and engineering services, Great Western Construction and Engineering ltd is the ideal choice.",
+      "Collaborating with Great western Engineering and Construction Ltd. was an absolute pleasure. Thier professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. If you're seeking to get the best construction and engineering services, Great Western Construction and Engineering ltd is the ideal choice.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -147,13 +148,13 @@ export const testimonials = [
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Great western Engineering and Construction Ltd. was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Great western Engineering and Construction Ltd.'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Great western Engineering and Construction Ltd. is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Great western Engineering and Construction Ltd. was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Great western Engineering and Construction Ltd.'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Great western Engineering and Construction Ltd. is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },

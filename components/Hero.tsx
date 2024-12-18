@@ -87,8 +87,9 @@ const Hero = () => {
               className="text-center text-[30px] md:text-4xl lg:text-5xl"
             />
           </div>
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+          <p className="text-center px-2 md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+            Hi! We Great western Engineering and Construction Ltd.,
+            a Company based in Nigeria.
           </p>
           <a href="#about">
             <MagicButton
