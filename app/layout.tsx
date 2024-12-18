@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import Footer from "@/components/Footer";
+import dynamic from "next/dynamic";
+const FloatingNav = dynamic(() => import("@/components/ui/FloatingNavbar"), {
+  ssr: false,
+}) as React.FC<{ navItems: any }>;
+const Footer = dynamic(() => import("@/components/Footer"), { ssr: false });
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 
