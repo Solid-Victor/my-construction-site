@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import Image from "next/image";
+import Link from "next/link";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
@@ -117,17 +118,10 @@ export const BentoGridItem = ({
         </div>
 
         {id === 5 && (
-          <div className="absolute inset-0 flex items-center justify-center">
-            <MagicButton
-              title="Read More"
-              position="right"
-              otherClasses="bg-[#10132E] text-white"
-             
-              // handleClick={() => {
-              //   window.location.href = "/about";
-              // }
-            
-            />
+          <div className="absolute -z-10 inset-0 flex items-center justify-center">
+            <button className={"inline-flex bg-black-100 w-5 p-5 py-1 right-44 "}>
+              <Link href="/about">Read More</Link>
+            </button>
           </div>
         )}
 
@@ -137,8 +131,6 @@ export const BentoGridItem = ({
             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
           </BackgroundGradientAnimation>
         )}
-      
-
 
         <div
           className={cn(
@@ -207,7 +199,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
+                title={copied ? "Email is Copied!" : "Copy Our email address"}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}

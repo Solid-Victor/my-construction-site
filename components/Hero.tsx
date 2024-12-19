@@ -75,7 +75,7 @@ const Hero = () => {
           <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
         </div>
 
-        <div className="flex flex-col items-center justify-center relative my-20">
+        <div className="flex flex-col items-center justify-center relative Our-20">
           <p className="uppercase tracking-widest text-xs text-blue-100 max-w-80">
             Dynamic Web Magic with Next.js
           </p>
@@ -93,7 +93,7 @@ const Hero = () => {
           </p>
           <a href="#about">
             <MagicButton
-              title="Show my work"
+              title="Show Our work"
               icon={<FaLocationArrow />}
               position="right"
             />

@@ -11,8 +11,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 import { navItems } from "@/data";
 export const metadata: Metadata = {
-  title: "great western construction ande nginieering",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  title: "great western construction and nginieering",
+  description: "cosntruction and Engineering",
 };
 
 export default function RootLayout({

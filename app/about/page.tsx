@@ -6,7 +6,7 @@ const About = () => {
     <main className=" max-w-7xl w-full">
       <section className="relative">
         <Image
-          src="/engineering-img.jpg"
+          src="/project-1.jpg"
           alt="About Us Banner"
           className="w-full h-64 object-cover"
           width={100}
@@ -20,15 +20,6 @@ const About = () => {
       <section className="container mx-auto py-12 px-6">
         {/* Company profile start */}
         <div className="grid md:grid-cols-2 gap-12">
-          <div>
-            <Image
-              src="/engineering-img.jpg"
-              alt="Company Image"
-              className="w-full rounded-lg shadow-md"
-              width={100}
-              height={100}
-            />
-          </div>
           <div>
             <h2 className="text-3xl font-semibold mb-4">Company Profile</h2>
             <p className="text-white-700 leading-relaxed mb-4">
@@ -45,62 +36,66 @@ const About = () => {
               Shanxi Photovoltaic Industry Alliance.
             </p>
           </div>
-        </div>
-        {/* Company profile end */}
-
-        {/* Our vission start */}
-        <div className="grid md:grid-cols-2 gap-12">
-          <div>
-            <h2 className="text-3xl font-semibold mb-6">
-              Our Vision & Mission
-            </h2>
-            <div className="grid md:grid-cols-3 gap-12">
-              <div>
-                <h3 className="text-xl font-bold mb-4">Vision</h3>
-                <p className="text-black-700">
-                  We are committed to building a sustainable new energy
-                  ecosystem and contributing to the green and sustainable
-                  development of all mankind.
-                </p>
-              </div>
-            </div>
-          </div>
           <div>
             <Image
-              src="/engineering-img.jpg"
+              src="/project-2.jpg"
               alt="Company Image"
               className="w-full rounded-lg shadow-md"
               width={100}
               height={100}
             />
+          </div>
+        </div>
+        {/* Company profile end */}
+
+        {/* Our vission start */}
+        <div className="grid md:grid-cols-2 gap-12 mt-5">
+          <div>
+            <Image
+              src="/project-2.jpg"
+              alt="Company Image"
+              className="w-full rounded-lg shadow-md"
+              width={100}
+              height={100}
+            />
+          </div>
+          <div>
+            <h2 className="text-3xl font-semibold mb-4">Our Vission</h2>
+            <p className="text-white-700 leading-relaxed mb-4">
+              We are committed to building a sustainable new energy ecosystem
+              and contributing to the green and sustainable development of all
+              mankind.
+            </p>
+            <p className="text-grey-700 leading-relaxed">
+              We are committed to building a sustainable new energy ecosystem
+              and contributing to the green and sustainable development of all
+              mankind.
+            </p>
           </div>
         </div>
         {/* Our Vission end */}
 
         {/* Our Mission start */}
-        <div className="grid md:grid-cols-2 gap-12">
-        <div>
+        <div className="grid md:grid-cols-2 gap-12 mt-5">
+          <div>
+            <h2 className="text-3xl font-semibold mb-4">Our Mission</h2>
+            <p className="text-white-700 leading-relaxed mb-4">
+              Leading photovoltaic technology innovation and contributing to
+              global sustainable energy development.
+            </p>
+            <p className="text-grey-700 leading-relaxed">
+              Leading photovoltaic technology innovation and contributing to
+              global sustainable energy development.
+            </p>
+          </div>
+          <div>
             <Image
-              src="/engineering-img.jpg"
+              src="/project-3.jpg"
               alt="Company Image"
               className="w-full rounded-lg shadow-md"
               width={100}
               height={100}
             />
-          </div>
-          <div>
-            <h2 className="text-3xl font-semibold mb-6">
-              Our Vision & Mission
-            </h2>
-            <div className="grid md:grid-cols-3 gap-12">
-              <div>
-                <h3 className="text-xl font-bold mb-4">Vision</h3>
-                <p className="text-black-700">
-                Leading photovoltaic technology innovation and contributing to
-                global sustainable energy development.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
         {/* Our Mission end */}
